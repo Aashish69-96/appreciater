@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background: aqua;
+        }
+        .id{
+           position: absolute;
+           top: 43vh;
+           left: 28vw;
+           font-size: 30px;
+           font-family: sans-serif;
+        }
+        #name{
+            color: red;
+           font-size: larger;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p class="id">Thanks  you <p1 id="name"> </p1>. I like you 😁
+    <!-- <br><br> -Aashish Adhikari -->
+    </p>
+
+    <script>
+         let name=prompt("Enter your name ");
+         document.querySelector("#name").innerHTML= name.toUpperCase();
+        //  let i=true;
+        //  while(i=true){
+        //     document.querySelector("#name").innerHTML=name;
+        //  }
+    </script>
+</body>
+</html>
